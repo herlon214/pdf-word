@@ -1,0 +1,24 @@
+{
+  "name": "pdf-word-cloud",
+  "version": "1.0.0",
+  "description": "Covert PDF into a words cloud",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "pdf",
+    "word",
+    "count"
+  ],
+  "author": "Herlon Aguiar",
+  "license": "ISC",
+  "dependencies": {
+    "latinize": "^0.4.0",
+    "natural": "^0.6.1",
+    "pdf2json": "^1.1.7",
+    "pdfreader": "^0.2.5",
+    "stopword": "^0.1.10"
+  }
+}
